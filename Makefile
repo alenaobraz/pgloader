@@ -75,7 +75,7 @@ clean:
 	$(MAKE) -C test clean
 
 $(QLDIR)/local-projects/qmynd:
-	git clone --depth 1 https://github.com/qitab/qmynd.git $@
+	git clone --depth 1 https://github.com/alenaobraz/qmynd.git $@
 
 $(QLDIR)/local-projects/cl-ixf:
 	git clone --depth 1 https://github.com/dimitri/cl-ixf.git $@
